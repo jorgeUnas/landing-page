@@ -14,9 +14,11 @@
     padding: 20px 0px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 70px;
 }
 #header-top div {
     color: white;
+    
 }
 #header-top ul {
     display: flex;
@@ -25,6 +27,12 @@
 }
 #header-top ul a {
     text-decoration: none;
+    color: white;
+}
+#logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-decoration-line: underline;
 }
 /*lower header*/
 
@@ -32,24 +40,110 @@
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 60px;
+}
+
+
+#header-bottom h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#header-bottom p{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#header-bottom img {
+    flex: 1;
+    height: auto;
+    width: 400px;
+    margin-bottom: 60px;
+}
+#header-bottom button {
+background-color: #3882F6;
+color: white;
+padding: 9px;
+border-radius: 10%;
+}
+
+/*Articles*/
+
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.article {
+    flex: 1;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.article a {
+    text-decoration: none;
+}
+.article p {
+    margin: auto;
+    width: 200px;
+    color: black;
+}
+.article p:first-child{
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.article img {
+    margin-top: 5px;
+}
+
+/*container 2*/
+
+.container2{
+    background-color: #E5E7EB;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#phrase{
+    flex: auto;
+    margin-left: 200px;
     margin-right: 200px;
 }
 
-#header-bottom h1,
-#header-bottom p,
-#header-bottom button
-{
-    margin-bottom: 10px;
-    
+#phrase p {
+    font-size: 50px;
+    font-style: italic;  
 }
 
-#header-bottom h1,
-#header-bottom p{
+/*footer*/
+
+footer{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    background-color: #3b82f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer > div{
     color: white;
+    font-size: 20px;
 }
-#header-bottom img {
-    height: auto;
-    width: 400px;
-    margin-bottom: 20px;
-}
-
